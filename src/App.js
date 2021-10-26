@@ -9,10 +9,20 @@ function App() {
     setTodoList(todoList ? [...todoList, todo] : [todo]);
     clearCaches();
   };
+  const handleDltBtn = (name) =>
+    setTodoList(todoList.filter((todo) => todo !== name));
   return (
     <div>
       <div>
-        <div>{todoList && todoList.map((todo) => <p>{todo}</p>)}</div>
+        <div>
+          {todoList &&
+            todoList.map((todo) => (
+              <div>
+                <p>{todo}</p>
+                <button onClick={() => handleDltBtn(todo)}>delete</button>
+              </div>
+            ))}
+        </div>
         <div>
           <input
             type="text"
