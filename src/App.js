@@ -18,26 +18,22 @@ function App() {
   const handleDltBtn = (name) =>
     setTodoList(todoList.filter((todo) => todo !== name));
   return (
-    <div>
+    <div className="body">
       <div>
-        <div>
-          {todoList &&
-            todoList.map((todo) => (
+        <div className="hed">To-do-App!</div>
+        <div className="newto">Add New To-Do</div>
+          <div>
+            <div>{todoList && todoList.map((todo) => <p>{todo}</p>)}</div>
               <div>
-                <p>{todo}</p>
-                <button onClick={() => handleDltBtn(todo)}>delete</button>
+               <input className="box"
+                type="text"
+                name="todoName"
+                value={todo}
+                onChange={handleTodoChange}
+               />
+               <button className="add" onClick={handleAddTodo}>ADD</button>
               </div>
-            ))}
-        </div>
-        <div>
-          <input
-            type="text"
-            name="todoName"
-            value={todo}
-            onChange={handleTodoChange}
-          />
-          <button onClick={handleAddTodo}>add</button>
-        </div>
+          </div>
       </div>
     </div>
   );
