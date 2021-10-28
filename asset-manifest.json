@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bootcamp-todo-app/static/css/main.86c199bb.chunk.css",
+    "main.js": "/bootcamp-todo-app/static/js/main.56addd73.chunk.js",
+    "main.js.map": "/bootcamp-todo-app/static/js/main.56addd73.chunk.js.map",
+    "runtime-main.js": "/bootcamp-todo-app/static/js/runtime-main.d7ce726b.js",
+    "runtime-main.js.map": "/bootcamp-todo-app/static/js/runtime-main.d7ce726b.js.map",
+    "static/js/2.1d9e219a.chunk.js": "/bootcamp-todo-app/static/js/2.1d9e219a.chunk.js",
+    "static/js/2.1d9e219a.chunk.js.map": "/bootcamp-todo-app/static/js/2.1d9e219a.chunk.js.map",
+    "static/js/3.7014739a.chunk.js": "/bootcamp-todo-app/static/js/3.7014739a.chunk.js",
+    "static/js/3.7014739a.chunk.js.map": "/bootcamp-todo-app/static/js/3.7014739a.chunk.js.map",
+    "index.html": "/bootcamp-todo-app/index.html",
+    "static/css/main.86c199bb.chunk.css.map": "/bootcamp-todo-app/static/css/main.86c199bb.chunk.css.map",
+    "static/js/2.1d9e219a.chunk.js.LICENSE.txt": "/bootcamp-todo-app/static/js/2.1d9e219a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7ce726b.js",
+    "static/js/2.1d9e219a.chunk.js",
+    "static/css/main.86c199bb.chunk.css",
+    "static/js/main.56addd73.chunk.js"
+  ]
+}
