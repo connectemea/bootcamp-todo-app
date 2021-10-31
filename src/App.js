@@ -10,7 +10,6 @@ function App() {
 
   // handle todo onChange state
   const handleTodoChange = (event) => setTodo(event.target.value);
-
   // handle clear the state
   const clearCaches = () => setTodo("");
 
@@ -19,7 +18,8 @@ function App() {
     setTodoList(todoList ? [...todoList, todo] : [todo]);
     clearCaches(); //clear the todo input
   };
-
+  const handleKeyPress = (e) =>
+    e.code === "Enter" && todo ? handleAddTodo() : null;
   // handle delete action in todo
   const handleDltBtn = (name) =>
     setTodoList(todoList.filter((todo) => todo !== name));
@@ -50,6 +50,7 @@ function App() {
               name="todoName"
               value={todo}
               onChange={handleTodoChange}
+              onKeyPress={handleKeyPress}
             />
             <button
               className={todo ? styles.addBtn : styles.disabledAddBtn}
