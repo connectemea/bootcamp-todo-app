@@ -5,10 +5,10 @@
 [![youtube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/channel/UCkxOlw02IKo-elzlvwYqTKQ)
 
 # Todo App
-To do app is a basic Raect app which tracks the tasks to be completed within a time span. Users can create, edit or delete tasks to be done. It is an easier way to track one's daily tasks.
+To do app is a basic React app which tracks the tasks to be completed within a time span. Users can create, edit or delete tasks to be done. It is an easier way to track one's daily tasks.
 <br>
 This app is created as a part of React Bootcamp organized by TinkerHub EMEA College, Kondotty.
 
 ## Features
 * Allows users to add and delete tasks.
-* Allows users to strile out the tasks which are completed.
+* Allows users to strike out the tasks which are completed.
